@@ -51,5 +51,6 @@ wandb
 # Misc
 .DS_Store
 _labs
+.idea/
 logs
 .mypy_cache

@@ -108,9 +108,9 @@ def _parse_args():
         help="If true, then final weights will be saved to canonical, version-controlled location"
     )
     parser.add_argument(
-        "experiment_config",
-        type=str,
-        help="Experimenet JSON ('{\"dataset\": \"EmnistDataset\", \"model\": \"CharacterModel\", \"network\": \"mlp\"}'"
+        "--experiment_config",
+        #type=str,
+        default='{\"dataset\": \"EmnistDataset\", \"model\": \"CharacterModel\", \"network\": \"lenet\"}'
     )
     parser.add_argument(
         "--nowandb",
